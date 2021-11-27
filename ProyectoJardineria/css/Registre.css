@@ -1,0 +1,200 @@
+:root
+{
+    --dark: #1a1a1a;
+    --white:#ffffff;
+    --light-grey:#efefef;
+    --gold:#ecd5a7;
+}
+body
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1 rem;
+    font-weight: 300;
+    letter-spacing: .05 rem;
+    background-color: var(--dark);
+}
+h1, h2, h3, h4, h5, h6, .navbar-brand
+{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+a
+{
+    color: var(--light);
+}
+a:hover
+{
+    color: var(--light);
+    text-decoration: none;
+}
+.bg-dark
+{
+    background-color: var(--dark) !important;
+}
+.bg-light
+{
+    background-color: var(--white) !important;
+}
+.text-dark
+{
+    color: var(--dark) !important;
+}
+.text-gold
+{
+    color: var(--gold) !important;
+}
+.text-light
+{
+    color: var(--white) !important;
+}
+.navbar
+{
+    min-height: 5rem;
+}
+.nav-link
+{
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+section
+{
+    padding: 6rem 0;
+}
+#slider
+{
+    padding: 
+    0;
+}
+.mt-6
+{
+    margin-top: 4rem;
+}
+.bg-img
+{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/madera.jpg);
+    background-size: 100% 100%; 
+    height: 514px;
+    background-attachment: fixed; 
+}
+.blog-info
+{
+    color: var(--white);
+    bottom: 1rem;
+    left: 1.5rem;
+}
+/*.modal-content
+{
+    background-color: #0f110eb7;
+    opacity: .95;
+    padding: 0 20px
+}*/
+.avatar
+{
+    width: 150px; 
+    height: 150px;
+    margin-top: -50px;
+    margin-bottom: 35px;
+    border-radius:100px;
+    border:7px solid rgb(49, 49, 49);
+}
+.Remember
+{
+    color: var(--white);
+}
+.Remember:hover
+{
+    color: var(--gold);
+    text-decoration: none;
+}
+.alert
+{
+    width: 100%;
+    background: #66e07d66;
+}
+.msg-error
+{
+    color: #e65656;
+}
+.msg-save
+{
+    color: #126e00;
+}
+.msg-danger
+{
+    color: orange;
+}
+.alert p
+{
+    padding: 10 px;
+}
+/*Agregado de Ingresar Producto*/
+.prevPhoto {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    height: 150px;
+    border: 1px solid #CCC;
+    position: relative;
+    cursor: pointer;
+    background: url(../images/uploads/user.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+.prevPhoto label{
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.prevPhoto img{
+	width: 100%;
+	height: 100%;
+}
+.upimg, .notBlock{
+	display: none !important;
+}
+.errorArchivo{
+	font-size: 16px;
+	font-family: arial;
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold; 
+	margin-top: 10px;
+}
+.delPhoto{
+	color: #FFF;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	background: red;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	z-index: 10;
+}
+#tbl_list_productos img{
+	width: 50px;
+}
+.imgProductoDelete{
+	width: 175px;
+}
+.img-products img
+{
+   width: 60px; 
+   height: 60px;
+   margin: auto;
+}
