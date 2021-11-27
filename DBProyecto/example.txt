@@ -1,0 +1,1 @@
+Base de Datos, se recomienda usar MySQL e importar la Base de datos, usar los servicios de Apache
