@@ -2,9 +2,9 @@
 Proyecto De Modelos de Desarrollo Web 
 
 -----Integrantes-----
-Julio Roberto Lozano Ramos
-Ivan Cuevas Coutiño
-Mitzi Lizbeth Maldonado Rodriguez
----------------------
+1. Julio Roberto Lozano Ramos
+2. Ivan Cuevas Coutiño
+3. Mitzi Lizbeth Maldonado Rodriguez
 
-Pequeño ejemplo de proyecto web usando UWE
+
+**Pequeño ejemplo de proyecto web usando UWE**
